@@ -19,7 +19,7 @@ class BattleServiceImpl implements BattleService {
 
         if (boss.getHitCount() == 5) {
             boss.setModifier(3); // Activate buff after 5 hits
-            System.out.println(boss.getNama() + " memiliki buff");
+            System.out.println(boss.getNama() + " memilikii buff");
         }
 
         turn++;
